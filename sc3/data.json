@@ -1,0 +1,431 @@
+{
+  "plans": [
+    {
+      "id": 1,
+      "name": "Dirt",
+      "ram": "2GB",
+      "cpu": "80%",
+      "storage": "8GB NVMe",
+      "price_monthly": 59,
+      "price_yearly": 590,
+      "price_lifetime": 1499,
+      "color": "#ff6b35",
+      "popular": false,
+      "sold_out": false,
+      "emoji": "\ud83e\udea8",
+      "description": "Perfect for small servers with a few friends."
+    },
+    {
+      "id": 2,
+      "name": "Wooden",
+      "ram": "4GB",
+      "cpu": "100%",
+      "storage": "10GB NVMe",
+      "price_monthly": 99,
+      "price_yearly": 990,
+      "price_lifetime": 2499,
+      "color": "#c8864e",
+      "popular": false,
+      "sold_out": false,
+      "emoji": "\ud83c\udf32",
+      "description": "Great starter plan for growing communities."
+    },
+    {
+      "id": 3,
+      "name": "Stone",
+      "ram": "6GB",
+      "cpu": "150%",
+      "storage": "15GB NVMe",
+      "price_monthly": 199,
+      "price_yearly": 1990,
+      "price_lifetime": 4999,
+      "color": "#94a3b8",
+      "popular": false,
+      "sold_out": false,
+      "emoji": "\ud83e\udea8",
+      "description": "Ideal for modded servers up to 20 players."
+    },
+    {
+      "id": 4,
+      "name": "Iron",
+      "ram": "8GB",
+      "cpu": "200%",
+      "storage": "20GB NVMe",
+      "price_monthly": 299,
+      "price_yearly": 2990,
+      "price_lifetime": 7499,
+      "color": "#7c9eb2",
+      "popular": true,
+      "sold_out": false,
+      "emoji": "\u2694\ufe0f",
+      "description": "Our most popular plan for SMP servers."
+    },
+    {
+      "id": 5,
+      "name": "Emerald",
+      "ram": "12GB",
+      "cpu": "250%",
+      "storage": "25GB NVMe",
+      "price_monthly": 399,
+      "price_yearly": 3990,
+      "price_lifetime": 9999,
+      "color": "#10b981",
+      "popular": false,
+      "sold_out": false,
+      "emoji": "\ud83d\udc8e",
+      "description": "Serious performance for large communities."
+    },
+    {
+      "id": 6,
+      "name": "Diamond",
+      "ram": "16GB",
+      "cpu": "300%",
+      "storage": "30GB NVMe",
+      "price_monthly": 499,
+      "price_yearly": 4990,
+      "price_lifetime": 12499,
+      "color": "#38bdf8",
+      "popular": false,
+      "sold_out": false,
+      "emoji": "\ud83d\udca0",
+      "description": "High-end power for busy multiplayer worlds."
+    },
+    {
+      "id": 7,
+      "name": "Netherite",
+      "ram": "20GB",
+      "cpu": "300%",
+      "storage": "40GB NVMe",
+      "price_monthly": 599,
+      "price_yearly": 5990,
+      "price_lifetime": 14999,
+      "color": "#8b5cf6",
+      "popular": false,
+      "sold_out": false,
+      "emoji": "\ud83d\udd2e",
+      "description": "Ultimate performance for large networks."
+    },
+    {
+      "id": 8,
+      "name": "Titanium",
+      "ram": "32GB",
+      "cpu": "400%",
+      "storage": "50GB NVMe",
+      "price_monthly": 999,
+      "price_yearly": 9990,
+      "price_lifetime": 24999,
+      "color": "#f59e0b",
+      "popular": false,
+      "sold_out": false,
+      "emoji": "\ud83d\udc51",
+      "description": "Unmatched power for massive server networks."
+    }
+  ],
+  "vps_plans": [
+    {
+      "id": 1,
+      "name": "VPS Starter",
+      "cpu_cores": 1,
+      "ram": "1GB",
+      "storage": "20GB NVMe",
+      "bandwidth": "1TB",
+      "price_monthly": 149,
+      "price_yearly": 1490,
+      "color": "#06b6d4",
+      "popular": false,
+      "sold_out": false,
+      "emoji": "\ud83c\udf31",
+      "description": "Entry-level VPS for dev environments and small apps.",
+      "os": [
+        "Ubuntu 22.04",
+        "Debian 12",
+        "CentOS 9"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "VPS Basic",
+      "cpu_cores": 2,
+      "ram": "2GB",
+      "storage": "40GB NVMe",
+      "bandwidth": "2TB",
+      "price_monthly": 299,
+      "price_yearly": 2990,
+      "color": "#3b82f6",
+      "popular": false,
+      "sold_out": false,
+      "emoji": "\ud83d\udcbb",
+      "description": "Reliable VPS for small business websites and apps.",
+      "os": [
+        "Ubuntu 22.04",
+        "Debian 12",
+        "Windows Server 2022"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "VPS Pro",
+      "cpu_cores": 4,
+      "ram": "4GB",
+      "storage": "80GB NVMe",
+      "bandwidth": "4TB",
+      "price_monthly": 599,
+      "price_yearly": 5990,
+      "color": "#8b5cf6",
+      "popular": true,
+      "sold_out": false,
+      "emoji": "\ud83d\ude80",
+      "description": "Professional VPS for production workloads.",
+      "os": [
+        "Ubuntu 22.04",
+        "Debian 12",
+        "CentOS 9",
+        "Windows Server 2022"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "VPS Business",
+      "cpu_cores": 6,
+      "ram": "8GB",
+      "storage": "160GB NVMe",
+      "bandwidth": "8TB",
+      "price_monthly": 999,
+      "price_yearly": 9990,
+      "color": "#10b981",
+      "popular": false,
+      "sold_out": false,
+      "emoji": "\ud83c\udfe2",
+      "description": "Business-grade for high-traffic applications.",
+      "os": [
+        "Ubuntu 22.04",
+        "Debian 12",
+        "Windows Server 2022"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "VPS Enterprise",
+      "cpu_cores": 8,
+      "ram": "16GB",
+      "storage": "320GB NVMe",
+      "bandwidth": "Unlimited",
+      "price_monthly": 1999,
+      "price_yearly": 19990,
+      "color": "#f59e0b",
+      "popular": false,
+      "sold_out": false,
+      "emoji": "\u26a1",
+      "description": "Enterprise power for demanding workloads.",
+      "os": [
+        "Ubuntu 22.04",
+        "Debian 12",
+        "CentOS 9",
+        "Windows Server 2022"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "VPS Titan",
+      "cpu_cores": 16,
+      "ram": "32GB",
+      "storage": "640GB NVMe",
+      "bandwidth": "Unlimited",
+      "price_monthly": 3999,
+      "price_yearly": 39990,
+      "color": "#ef4444",
+      "popular": false,
+      "sold_out": false,
+      "emoji": "\ud83d\udc51",
+      "description": "Maximum performance dedicated VPS resources.",
+      "os": [
+        "Ubuntu 22.04",
+        "Debian 12",
+        "Windows Server 2022"
+      ]
+    }
+  ],
+  "stats": {
+    "servers": "500+",
+    "uptime": "99.9%",
+    "support": "24/7",
+    "gamers": "10,000+"
+  },
+  "site": {
+    "name": "StrengthCloud",
+    "discord": "https://discord.gg/strengthcloud",
+    "tagline": "Premium Minecraft Hosting"
+  },
+  "admin": {
+    "username": "admin",
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9"
+  },
+  "features": [
+    {
+      "icon": "\u26a1",
+      "title": "Instant Setup",
+      "desc": "Live within seconds of purchase."
+    },
+    {
+      "icon": "\ud83d\udcbe",
+      "title": "NVMe SSD",
+      "desc": "Ultra-fast zero-lag storage."
+    },
+    {
+      "icon": "\ud83d\udee1\ufe0f",
+      "title": "DDoS Protection",
+      "desc": "Enterprise-grade, always free."
+    },
+    {
+      "icon": "\ud83c\udfa7",
+      "title": "24/7 Support",
+      "desc": "Always here to help you."
+    },
+    {
+      "icon": "\ud83d\udd27",
+      "title": "1-Click Modpacks",
+      "desc": "Install any modpack instantly."
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Unlimited DBs",
+      "desc": "No MySQL database limits."
+    },
+    {
+      "icon": "\ud83d\udda5\ufe0f",
+      "title": "Control Panel",
+      "desc": "Manage from one dashboard."
+    },
+    {
+      "icon": "\ud83d\udce1",
+      "title": "99.9% Uptime",
+      "desc": "Guaranteed infrastructure."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How quickly is my server set up?",
+      "a": "Instantly after payment \u2014 Pterodactyl auto-provisions your server in seconds."
+    },
+    {
+      "q": "What Minecraft versions do you support?",
+      "a": "We support all versions from 1.8 to the latest, including Bedrock."
+    },
+    {
+      "q": "Is DDoS protection really free?",
+      "a": "Yes! All plans include enterprise-grade DDoS protection at no extra cost."
+    },
+    {
+      "q": "What payment methods do you accept?",
+      "a": "Razorpay (UPI, Cards, NetBanking, Wallets), UPI QR, and Bank Transfer."
+    },
+    {
+      "q": "Can I upgrade my plan later?",
+      "a": "Absolutely! You can upgrade anytime from your client panel."
+    },
+    {
+      "q": "Do you offer refunds?",
+      "a": "We offer a 3-day money-back guarantee on all plans."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Alex_MC",
+      "role": "Server Owner",
+      "stars": 5,
+      "text": "StrengthCloud is incredible! Lag-free with 50+ players."
+    },
+    {
+      "name": "CraftKing",
+      "role": "Modpack Dev",
+      "stars": 5,
+      "text": "Server went live instantly after payment. Amazing!"
+    },
+    {
+      "name": "PixelStudio",
+      "role": "Gaming Community",
+      "stars": 5,
+      "text": "Switched from another host \u2014 night and day difference."
+    },
+    {
+      "name": "BlockMaster99",
+      "role": "SMP Owner",
+      "stars": 4,
+      "text": "Great uptime and the control panel is super easy."
+    },
+    {
+      "name": "RedstoneWiz",
+      "role": "Technical Player",
+      "stars": 5,
+      "text": "DDoS protection saved our server multiple times."
+    },
+    {
+      "name": "BuilderPro",
+      "role": "Creative Server",
+      "stars": 5,
+      "text": "Affordable + premium performance. Real deal."
+    }
+  ],
+  "users": [],
+  "orders": [],
+  "announcements": [
+    {
+      "id": 1,
+      "title": "Welcome!",
+      "message": "Enjoy 20% off with code LAUNCH20",
+      "type": "info",
+      "active": true
+    }
+  ],
+  "coupons": [
+    {
+      "code": "LAUNCH20",
+      "discount": 20,
+      "type": "percent",
+      "active": true
+    },
+    {
+      "code": "FLAT100",
+      "discount": 100,
+      "type": "flat",
+      "active": true
+    }
+  ],
+  "sale": {
+    "active": false,
+    "percent": 30,
+    "label": "MEGA SALE",
+    "subtitle": "Limited time offer!",
+    "expires": ""
+  },
+  "payment": {
+    "razorpay_key_id": "",
+    "razorpay_key_secret": "",
+    "upi_id": "",
+    "upi_name": "",
+    "upi_qr": "",
+    "bank_name": "",
+    "bank_account": "",
+    "bank_ifsc": "",
+    "bank_holder": "",
+    "methods_enabled": [
+      "razorpay",
+      "upi",
+      "bank"
+    ],
+    "currency": "INR"
+  },
+  "pterodactyl": {
+    "enabled": false,
+    "panel_url": "https://dash.elitecloud.fun",
+    "api_key": "ptla_QyOmvmAp9WbiYt32RXdivOq6JMvwvBzTJVnkNQDwgrM",
+    "location_id": 1,
+    "egg_id": 1,
+    "docker_image": "ghcr.io/pterodactyl/yolks:java_17",
+    "startup": "java -Xms128M -XX:MaxRAMPercentage=95.0 -jar {{SERVER_JARFILE}}",
+    "default_variables": {
+      "SERVER_JARFILE": "server.jar",
+      "MINECRAFT_VERSION": "latest"
+    }
+  }
+}
